@@ -49,6 +49,21 @@ export const userData = [
     },
   ];
 
+  export const productData = [
+    {
+      name: "Jan",
+      "Sales": 4320,
+    },
+    {
+      name: "Feb",
+      "Sales": 3320,
+    },
+    {
+      name: "Mar",
+      "Sales": 1220,
+    },
+  ];
+
 
  export const UserRows = [
     { id: 1, username: "Jon Snow", avatar:"https://i.ibb.co/1nkPyfs/Netflix-avatar.png",
@@ -75,4 +90,19 @@ export const userData = [
     email:"jonsnow@gmail.com",status:"active",transaction:"120$" },
     { id: 12, username: "Jon Snow", avatar:"https://i.ibb.co/1nkPyfs/Netflix-avatar.png",
     email:"jonsnow@gmail.com",status:"active",transaction:"120$" },
+  ];
+
+ export const productRows = [
+    { id: 1, name: "Apple Airpods", img:"https://i.ibb.co/4fvbrN0/Apple-Air-Pods-Pro.webp",
+    stock:142,status:"active",price:"350$"},
+    { id: 2, name: "Apple Airpods", img:"https://i.ibb.co/4fvbrN0/Apple-Air-Pods-Pro.webp",
+    stock:142,status:"active",price:"350$"},
+    { id: 3, name: "Apple Airpods", img:"https://i.ibb.co/4fvbrN0/Apple-Air-Pods-Pro.webp",
+    stock:142,status:"active",price:"350$"},
+    { id: 4, name: "Apple Airpods", img:"https://i.ibb.co/4fvbrN0/Apple-Air-Pods-Pro.webp",
+    stock:142,status:"active",price:"350$"},
+    { id: 5, name: "Apple Airpods", img:"https://i.ibb.co/4fvbrN0/Apple-Air-Pods-Pro.webp",
+    stock:142,status:"active",price:"350$"},
+    { id: 6, name: "Apple Airpods", img:"https://i.ibb.co/4fvbrN0/Apple-Air-Pods-Pro.webp",
+    stock:142,status:"active",price:"350$"},
   ];

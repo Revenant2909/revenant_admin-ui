@@ -1,6 +1,7 @@
 import React from 'react'
 import "./sidebar.css";
-import { AttachMoneyOutlined, FeedbackOutlined, Inventory2Outlined, LineStyle, MailOutlineOutlined, ManageAccountsOutlined, ManageHistory, MessageOutlined, PeopleAltOutlined, Report, Timeline, TrendingUp, WorkOutlineOutlined } from '@mui/icons-material';
+import { AttachMoneyOutlined, FeedbackOutlined, Inventory2Outlined, LineStyle, MailOutlineOutlined, MessageOutlined, PeopleAltOutlined, Report, Timeline, TrendingUp, WorkOutlineOutlined } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 
 
 export default function Sidebar() {
@@ -27,14 +28,18 @@ export default function Sidebar() {
             <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Quick Menu</h3>
                     <ul className="sidebarList">
+                        <Link to="/users" className='link'>
                         <li className="sidebarListItem ">
                             <PeopleAltOutlined className='sidebarIcon'/>
                             Users
                         </li>
+                        </Link>
+                        <Link to="/products" className='link'>
                         <li className="sidebarListItem">
                             <Inventory2Outlined className='sidebarIcon'/>
                             Products
                         </li>
+                        </Link>
                         <li className="sidebarListItem">
                             <AttachMoneyOutlined className='sidebarIcon'/>
                             Transactions
