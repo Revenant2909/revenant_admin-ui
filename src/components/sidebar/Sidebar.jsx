@@ -1,6 +1,6 @@
 import React from 'react'
 import "./sidebar.css";
-import { AttachMoneyOutlined, FeedbackOutlined, Inventory2Outlined, LineStyle, MailOutlineOutlined, MessageOutlined, PeopleAltOutlined, Report, Timeline, TrendingUp, WorkOutlineOutlined } from '@mui/icons-material';
+import { AttachMoneyOutlined, FeedbackOutlined, LineStyle, MailOutlineOutlined, MessageOutlined, PeopleAltOutlined, PlayCircleOutline, Report, Timeline, TrendingUp, WorkOutlineOutlined } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 
 
@@ -34,10 +34,10 @@ export default function Sidebar() {
                             Users
                         </li>
                         </Link>
-                        <Link to="/products" className='link'>
+                        <Link to="/movies" className='link'>
                         <li className="sidebarListItem">
-                            <Inventory2Outlined className='sidebarIcon'/>
-                            Products
+                            <PlayCircleOutline className='sidebarIcon'/>
+                            Movies
                         </li>
                         </Link>
                         <li className="sidebarListItem">
